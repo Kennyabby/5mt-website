@@ -33,7 +33,7 @@ export default function HeroSection() {
               <Button 
                 size="lg" 
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-primary"
+                className="border-white text-primary hover:bg-white/80 hover:text-primary"
                 onClick={() => scrollToSection("contact")}
               >
                 <Phone className="mr-2 h-5 w-5" />
